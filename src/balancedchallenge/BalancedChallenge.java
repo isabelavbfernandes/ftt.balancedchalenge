@@ -33,9 +33,9 @@ public class BalancedChallenge {
         System.out.println("Escreve o comando a ser validado: ");
         String comando = myObj.nextLine();
         if(isValid(comando))
-            System.out.println("VÃ¡lido");
+            System.out.println("Válido");
         else
-            System.out.println("InvÃ¡lido");
+            System.out.println("Inválido");
     }
     
     public static boolean isValid(String s) {
