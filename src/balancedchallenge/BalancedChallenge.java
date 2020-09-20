@@ -41,12 +41,11 @@ public class BalancedChallenge {
     public static boolean isValid(String s) {
         // creating stack        
         Stack<Character> symbols = new Stack<>();
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (fonte.containsKey(c)) {
-                symbols.push(fonte.get(c));
-            } else if (fonte.containsValue(c)) {
-                if (symbols.isEmpty() || symbols.pop() != c) {
+        for (int i = 0; i < s.length(); i++) 
+            if (fonte.containsKey(s.charAt(i))) {
+                symbols.push(fonte.get(s.charAt(i)));
+            } else if (fonte.containsValue(s.charAt(i))) {
+                if (symbols.isEmpty() || symbols.pop() != s.charAt(i)) {
                     return false;
                 }
             }
