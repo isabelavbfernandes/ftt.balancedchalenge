@@ -1,9 +1,9 @@
 **Aluna:** Isabela Vilas Boas Fernandes<br />      
 **RA:** 081180016
 
-<h3>Desafio 2: Validar linhas de código com ()[]{} válidos - Projeto</h3><br />
-<h5>Projeto individual</h5><br />
-<h5>Linguagem aceita - alfabeto da linguagem: <{[( )]}></h5><br />
+**Desafio 2: Validar linhas de código com ()[]{} válidos - Projeto**<br />
+Projeto individual<br />
+Linguagem aceita - alfabeto da linguagem: <{[( )]}>
 
 - [](){} - OK - Válido<br />
 - [)]{} - Não - Inválido<br />
