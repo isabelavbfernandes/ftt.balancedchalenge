@@ -1,21 +1,20 @@
 Aluna: Isabela Vilas Boas Fernandes
 RA: 081180016
-Sala: EC6
 
-Desafio 2: Validar linhas de código com ()[]{} válidos - Projeto
-Projeto individual
-Linguagem aceita - alfabeto da linguagem: <{[( )]}>
+Desafio 2: Validar linhas de código com ()[]{} válidos - Projeto \n
+Projeto individual \n
+Linguagem aceita - alfabeto da linguagem: <{[( )]}> \n
 
-[](){} - OK - Válido
-[)]{} - Não - Inválido
-[(]){}<> - Não - Inválido
-(((((([])))))) - OK - Válido
-{{[[()]()]}} - OK - Válido
-{[[([)]]]} - Não - Inválido
-<{(())}> - OK - Válido
-{<[]()[[]]<>>} - OK - Válido
+[](){} - OK - Válido \n
+[)]{} - Não - Inválido \n
+[(]){}<> - Não - Inválido \n
+(((((([])))))) - OK - Válido \n
+{{[[()]()]}} - OK - Válido \n
+{[[([)]]]} - Não - Inválido \n
+<{(())}> - OK - Válido \n
+{<[]()[[]]<>>} - OK - Válido \n
 
-Parser! - Analisador Sintático - Automato com pilha
-Feito em Java
+Parser! - Analisador Sintático - Automato com pilha \n
+Feito em Java \n
 
 **O trabalho foi feito para que cada linha a ser validada seja digitada no console**
