@@ -1,4 +1,4 @@
-**Aluna:** Isabela Vilas Boas Fernandes<br />      
+**Aluna:** Isabela Vilas Boas Fernandes   
 **RA:** 081180016
 
 **Desafio 2: Validar linhas de código com ()[]{} válidos - Projeto**<br />
